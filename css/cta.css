@@ -1,0 +1,87 @@
+
+.v2-heading-style-h2 {
+    color: var(--brand--black);
+    font-family: Syne, sans-serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1.1875;
+}
+.v2-heading-style-h2.is-small {
+    font-size: 2.25rem;
+}
+.help_lottie {
+    width: 3.125rem;
+    height: 3.125rem;
+    overflow: hidden;
+}
+.text-color-beige {
+    color: var(--brand--beige);
+}
+
+.post-inner-content #main-col p{
+    margin:1rem 0rem;
+}
+.text.par-c{
+    display: inline-block;
+    margin-top: 10px;
+}
+.post-inner-content #main-col figure {
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: auto;
+}
+.wp-block-table a{
+    color: #ffb7fa !important;
+    font-weight: 400 !important;
+}
+.result_title-wrapper strong{
+    color: rgba(255, 183, 250, 1);
+}
+.result_title-wrapper,.result_title-wrapper p{
+    color: rgba(249, 245, 237, 1);
+}
+.result_title-wrapper {
+    padding: 2rem;
+}
+.result_title-wrapper {
+    gap: 15px;
+    background-color: rgba(35, 35, 35, 1);
+    grid-column-gap: 2.25rem;
+    grid-row-gap: 2.25rem;
+    text-align: center;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 61.25rem;
+    margin-bottom: 4.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 20px;
+}
+.lottie_wrapper {
+    z-index: 5;
+    position: relative;
+}
+.opacity-75 {
+    opacity: 0.75;
+}
+@media screen and (max-width: 767px) {
+    .v2-heading-style-h2 {
+        font-size: 2rem;
+    }
+    .result_title-wrapper {
+        margin-bottom: 2.5rem;
+    }
+}
+
+
+.comment-block .text-size-medium{
+font-size: 13px;
+}
+.comment-block .v2-heading-style-h2{
+font-size: 46px;
+margin-top: -30px;
+}
